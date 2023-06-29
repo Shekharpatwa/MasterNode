@@ -19,9 +19,13 @@
         "dest": "index.js"
       },
       {
-        "src": "/",
+        "src": "/AddProduct",
         "dest": "build/index.html"
       },
+      {
+        "src": "/",
+        "dest": "build/index.html"
+      },      
       {
         "src": "/(.+)",
         "dest": "build/$1"
